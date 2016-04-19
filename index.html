@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Yuanxu Li</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
 	</head>
-	<body>
+	<body ng-app="App" ng-controller="HomeCtrl">
 		<nav>
     		<ul>
         		<li><a href="/">Home</a></li>
@@ -13,7 +14,7 @@
     		</ul>
 		</nav>
 		<div class="container">
-			To be Continued.
+			{{ welcome }}
 		</div><!-- /.container -->
 		<footer>
     		<ul>
