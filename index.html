@@ -6,10 +6,8 @@
 		<script src="/app/app.js"></script>
 	</head>
 	<body ng-app="app" ng-controller="homeCtrl">
-		<navigation></navigation>
-		<div class="container">
-			{{ welcome }}
-		</div>
-		<footer></footer>
+		<nav-menu></nav-menu>
+		<div ng-include="'/views/_home.html'"></div>
+		<page-footer></page-footer>
 	</body>
 </html>

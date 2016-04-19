@@ -4,17 +4,17 @@ app.controller("homeCtrl", function($scope) {
 	$scope.welcome = "Welcome to Yuanxu Li's Homepage";
 });
 
-app.directive("navigation", function() {
+app.directive("navMenu", function() {
 	return {
 		restrict: 'E',
-		templateUrl: '/views/navigation.html'
+		templateUrl: '/views/_navigation.html'
 	};
 });
 
-app.directive("footer", function() {
+app.directive("pageFooter", function() {
 	return {
 		restrict: 'E',
-		templateUrl: '/views/footer.html'
+		templateUrl: '/views/_footer.html'
 	};
 });
 
