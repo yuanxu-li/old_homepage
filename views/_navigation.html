@@ -1,6 +1,6 @@
-<nav>
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/assets/Yuanxu%20(Justin)%20Li%20CV.pdf">CV</a></li>
+<nav class="navbar navbar-default navbar-fixed-top" ng-controller="">
+	<ul class="nav nav-pills">
+		<li role="presentation" class="{active:isSelected(1)}"><a href="/" ng-click="selectTab(1)">Home</a></li>
+		<li role="presentation" class="{active:isSelected(2)}"><a href="/assets/Yuanxu%20(Justin)%20Li%20CV.pdf" ng-click="selectTab(2)">CV</a></li>
 	</ul>
 </nav>
