@@ -8,7 +8,7 @@ app.controller("homeCtrl", function($scope) {
 app.directive("navMenu", function() {
 	return {
 		restrict: 'E',
-		templateUrl: '/views/_navigation.html',
+		templateUrl: '/views/navigation.html',
 		controller: function($scope) {
 			$scope.tab = 1;
 			$scope.isSelected = function(checkTab) {
@@ -25,7 +25,7 @@ app.directive("navMenu", function() {
 app.directive("pageFooter", function() {
 	return {
 		restrict: 'E',
-		templateUrl: '/views/_footer.html'
+		templateUrl: '/views/footer.html'
 	};
 });
 
