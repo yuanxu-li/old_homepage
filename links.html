@@ -12,9 +12,18 @@
 	</head>
 	<body ng-app="app">
 		<nav-menu></nav-menu>
-		<div ng-include="'/views/interests.html'"></div>
-		<hr>
-		<div ng-include="'/views/hometown.html'"></div>
+		<div class="container" ng-controller="linkCtrl">
+			<h1>Links</h1>
+			<div ng-repeat="(category, content) in links">
+				<h2>{{category}}</h2>
+				<ul>
+					<li ng-repeat="link in content">
+						<a href="{{link.link}}">{{link.text}}</a>: {{link.description}}
+					</li>
+				</ul>
+				<hr>
+			</div>
+		</div>
 		<page-footer></page-footer>
 	</body>
 </html>

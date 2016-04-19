@@ -4,6 +4,11 @@ app.controller("homeCtrl", function($scope) {
 	$scope.welcome = "Welcome to Yuanxu Li's Homepage";
 });
 
+app.controller("linkCtrl", function($scope, $http) {
+	$http.get('/public/json/links.json').success(function(data) {
+		$scope.links = data;
+	});
+});
 
 app.directive("navMenu", function() {
 	return {

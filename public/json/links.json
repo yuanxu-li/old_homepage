@@ -1,0 +1,138 @@
+{
+	"Learning": [
+		{
+			"text": "Coursera",
+			"link": "https://www.coursera.org/",
+			"description": "a great website for MOOC"
+		},
+		{
+			"text": "Udacity",
+			"link": "https://www.udacity.com/",
+			"description": "another great website for MOOC"
+		},
+		{
+			"text": "MathWorld",
+			"link": "http://mathworld.wolfram.com/",
+			"description": "a dictionary for mathematical terms"
+		}
+	],
+	"Tools": [
+		{
+			"text": "LaTex",
+			"link": "http://www.latex-project.org/",
+			"description": "a cool document preparation system"
+		},
+		{
+			"text": "Python",
+			"link": "http://www.python.org/",
+			"description": "sweet and easy-to-go language"
+		},
+		{
+			"text": "MATLAB",
+			"link": "http://www.mathworks.com/products/matlab/",
+			"description": "not free, but still cool for a matrix fan like me"
+		},
+		{
+			"text": "OneNote",
+			"link": "http://office.microsoft.com/en-us/onenote/",
+			"description": "note taking tool"
+		},
+		{
+			"text": "Mendeley",
+			"link": "http://www.mendeley.com/",
+			"description": "an academic search engine as well as a FREE tool for paper management"
+		},
+		{
+			"text": "Gephi",
+			"link": "https://gephi.org/",
+			"description": "an amazing data analysis and visualization tool" 
+		},
+		{
+			"text": "NetLogo",
+			"link": "http://ccl.northwestern.edu/netlogo/",
+			"description": "a programmable modelling tool with visualization"
+		},
+		{
+			"text": "HistCite",
+			"link": "http://interest.science.thomsonreuters.com/forms/HistCite/",
+			"description": "a package for bibliometric analysis and information visualization"
+		},
+		{
+			"text": "ArnetMiner",
+			"link": "http://arnetminer.org/",
+			"description": "a great academic search engine as well as a useful analysis tool"
+		},
+		{
+			"text": "Google Scholar",
+			"link": "http://scholar.google.com/",
+			"description": "search by paper"
+		},
+		{
+			"text": "DBLP",
+			"link": "http://www.informatik.uni-trier.de/~ley/db/",
+			"description": "comprehensive database for academic search. Search by author"
+		}
+	],
+	"Blogs and Homepages": [
+		{
+			"text": "Yin Wang",
+			"link": "http://www.yinwang.org/",
+			"description": "famous for his paper Work entirely on Linux/GNU, once triggering a fight between Windows users and Linux users. Also famous for his dropout from Tsinghua University and Cornell University"
+		},
+		{
+			"text": "Chiyuan Zhang",
+			"link": "http://freemind.pluskid.org/",
+			"description": "CS P.hD. candidate in MIT. He often introduces the basic concepts as well as the advanced topics of machine learning, in the most readable way"
+		},
+		{
+			"text": "Lada Adamic",
+			"link": "http://www.ladamic.com/",
+			"description": "one of my favorite researchers on social network. Also known for teaching a SNA course in Coursera"
+		},
+		{
+			"text": "Mark Newman",
+			"link": "http://www-personal.umich.edu/~mejn/",
+			"description": "a network scientist. Modularity by him is currently one of the most popular metric for community detection"
+		},
+		{
+			"text": "Chris H.Q. Ding",
+			"link": "http://ranger.uta.edu/~chqding/",
+			"description": "research on Nonnegative Matrix Factorization(NMF) and Spectral Clustering"
+		},
+		{
+			"text": "Jure Leskovec",
+			"link": "http://cs.stanford.edu/people/jure/",
+			"description": "a researcher on social network"
+		},
+		{
+			"text": "Haesun Park",
+			"link": "http://www.cc.gatech.edu/~hpark/",
+			"description": "a researcher on NMF"
+		},
+		{
+			"text": "Hui Xiong",
+			"link": "http://datamining.rutgers.edu/",
+			"description": "an admirable researcher, whose autography is encouraging. Alumni of USTC"
+		},
+		{
+			"text": "Linli Xu",
+			"link": "http://staff.ustc.edu.cn/~linlixu/",
+			"description": "a researcher on machine learning"
+		},
+		{
+			"text": "Ceren Budak",
+			"link": "http://www.cs.ucsb.edu/~cbudak/",
+			"description": "on computational social science"
+		},
+		{
+			"text": "Fei Wang",
+			"link": "https://sites.google.com/site/feiwang03/",
+			"description": "a very active and broad-interested researcher on social networks, healthcare, etc"
+		},
+		{
+			"text": "Jiawei Han",
+			"link": "http://www.cs.uiuc.edu/~hanj/",
+			"description": "one of the leaders in data mining"
+		}
+	]
+}
