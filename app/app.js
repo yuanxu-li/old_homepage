@@ -5,15 +5,19 @@ app.controller("homeCtrl", function($scope) {
 });
 
 app.controller("linkCtrl", function($scope, $http) {
-	$http.get('public/json/links.json').success(function(data) {
+	$http.get('/old_homepage/public/json/links.json').success(function(data) {
 		$scope.links = data;
 	});
 });
 
+app.controller("nameCtrl", function($scope) {
+	$scope.baseurl = "/old_homepage";
+})
+
 app.directive("navMenu", function() {
 	return {
 		restrict: 'E',
-		templateUrl: 'views/navigation.html',
+		templateUrl: '/old_homepage/views/navigation.html',
 		controller: function($scope) {
 			$scope.tab = 1;
 			$scope.isSelected = function(checkTab) {
@@ -30,7 +34,7 @@ app.directive("navMenu", function() {
 app.directive("pageFooter", function() {
 	return {
 		restrict: 'E',
-		templateUrl: 'views/footer.html'
+		templateUrl: '/old_homepage/views/footer.html'
 	};
 });
 
