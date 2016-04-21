@@ -10,10 +10,6 @@ app.controller("linkCtrl", function($scope, $http) {
 	});
 });
 
-app.controller("nameCtrl", function($scope) {
-	$scope.baseurl = "/old_homepage";
-});
-
 app.directive("navMenu", function() {
 	return {
 		restrict: 'E',
